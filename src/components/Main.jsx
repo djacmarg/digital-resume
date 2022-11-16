@@ -1,6 +1,6 @@
 import React from "react";
 import "../app.css";
-import AnimatedText from "react-animated-text-content";
+import MovingComponent from "react-moving-text";
 
 function Main() {
   const base_url = "http://djacmarg.github.io/digital-resume";
@@ -11,22 +11,21 @@ function Main() {
       <div className="hero">
         <img
           className="profile--pic"
-          src="../images/profile-img.jpg"
+          src="images/profile-img.JPG"
           alt="profile-img"
         />
 
         <div>
           <h1>Durotoye Oyerinde</h1>
           <h3>Full Stack Engineer</h3>
-
-          <AnimatedText
-            type="words"
-            interval={0.04}
-            duration={0.8}
-            animation={{
-              x: "100px",
-              ease: "ease",
-            }}
+          <MovingComponent
+            type="fadeInFromBottom"
+            duration="2000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="backwards"
           >
             A Full stack engineer with over 12 years in the industry.
             Experienced in the application & presentation layers, Building &
@@ -34,7 +33,7 @@ function Main() {
             Frontend and Backend technologies. Can handle LEMP, LAMP, MERN
             stacks, CMS, Android & iOS application developments. Able to
             Integrate third party APIs, Blockchain and payment gateways.
-          </AnimatedText>
+          </MovingComponent>
         </div>
       </div>
 
@@ -86,17 +85,17 @@ function Main() {
         </div>
         <div className="wh">
           <h3>VOCTIM: July 2017 - July 2019</h3>
-          <AnimatedText
-            type="words"
-            interval={0.04}
-            duration={0.8}
-            animation={{
-              y: "100px",
-              ease: "ease",
-            }}
+          <MovingComponent
+            type="fadeInFromBottom"
+            duration="1000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="backwards"
           >
-            Taught Autocad and Engineering design
-          </AnimatedText>
+            Taught AutoCAD and Engineering Design
+          </MovingComponent>
         </div>
         <div className="wh">
           <h3>
