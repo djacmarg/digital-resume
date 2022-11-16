@@ -3,7 +3,7 @@ import "../app.css";
 import AnimatedText from "react-animated-text-content";
 
 function Main() {
-  const base_url = "http://localhost:3000";
+  const base_url = "http://djacmarg.github.io/digital-resume";
   const erc_cert_link =
     "https://certificate.evidenz.io/check/BA55E42EE976F0FB2609A95B0DB41056161E238CD19C439E8B03F454B16EFDF9Yk9kOUNpb1FoR3gzQ0xycWZxRVAzdjc3RkZnMFJ4L2ZWKzR3Vnh3cU81bW0zL2Qy";
   return (
