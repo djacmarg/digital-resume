@@ -72,7 +72,7 @@ function Main() {
       <div className="sect">
         <h3 className="pd">WORK HISTORY</h3>
         <div className="wh">
-          <h3>Techsolute Labs: July 2017 - Date | CEO & Tech Lead</h3>
+          <h3>Techsolute Labs: Jan 2020 - Date | CEO & Tech Lead</h3>
           <ul>
             <li>
               Maintaining School Management Systems that I built for Clients.
@@ -83,7 +83,20 @@ function Main() {
             </li>
           </ul>
         </div>
-
+        <div className="wh">
+          <h3>VOCTIM: July 2017 - July 2019</h3>
+          <MovingComponent
+            type="fadeInFromBottom"
+            duration="1000ms"
+            delay="0s"
+            direction="normal"
+            timing="ease"
+            iteration="1"
+            fillMode="backwards"
+          >
+            Taught AutoCAD and Engineering Design
+          </MovingComponent>
+        </div>
         <div className="wh">
           <h3>
             Meridian Consults (Pty) Limited Nov 2011 - June 2017 | ICT Lead

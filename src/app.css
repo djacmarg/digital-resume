@@ -7,16 +7,19 @@
 }
 
 body {
-  font-family: 'Poppins', 'Segoe UI', 'Roboto',  'Helvetica Neue';
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(100deg, #00796b 70%, #00bfa5 30%);
   color: #fff;
+  font-weight: normal;
+  line-height: 25px;
 }
 h1, h2, h3, h4, h5, h6{
   color: #fff;
   font-weight: 700;
   padding-top: 7px;
+  font-size: inherit;
 }
 h1{
   font-size: 2em;
@@ -94,7 +97,7 @@ li a{
   margin-top: 5px;;
 }
 .stack{
-  padding: 0.5em .9em;
+  padding: 0.5em 1em;
   border: solid 1px; 
   border-radius: 7px; 
   align-items: center;
@@ -115,7 +118,7 @@ li a{
 }
 
 .social a:hover{
-  font-size: .9em;
+  font-size: 0.9em;
   color: rgb(109, 230, 199); 
   text-decoration: underline;
 }
