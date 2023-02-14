@@ -47,7 +47,7 @@ function Main() {
             <span>LEMP | Linux NGINX, MySQL, PHP</span>
           </div>
           <div className="stack">
-            <span>Git, DevOps</span>
+            <span>Git, Github, BitBucket</span>
           </div>
           <div className="stack">
             <span>MERN | MongoDB, Express, React, Node</span>
