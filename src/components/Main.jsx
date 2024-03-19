@@ -32,7 +32,7 @@ function Main() {
             Consumption of RESTful APIs and complex databases. Efficient in both
             Frontend and Backend technologies. Can handle LEMP, LAMP, MERN
             stacks, CMS, Android & iOS application developments. Able to
-            Integrate third party APIs, Blockchain and payment gateways.
+            Integrate third party APIs, Blockchain and payment gateways!!!.
           </MovingComponent>
         </div>
       </div>
